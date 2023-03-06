@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@user.tax/captcha-img': ^0.0.20
+
+dependencies:
+  '@user.tax/captcha-img': 0.0.20
+
+packages:
+
+  /@user.tax/captcha-img/0.0.20:
+    resolution: {integrity: sha512-/duRlstka3JfTgjo79huUfliSdHCvwwAtQFvYNCYo4AeFF1OZ/y2Jsu7e/ZIrvy+Lp8+Hq0zDV0OO2R3u6Cfpw==}
+    dev: false

@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@user.tax/captcha-img": "^0.0.20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  }
+}
