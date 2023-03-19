@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@u7/req": "^0.0.13"
+  }
+}

@@ -1,0 +1,54 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@u7/req': ^0.0.13
+  '~': link:.
+
+dependencies:
+  '@u7/req': 0.0.13
+  '~': 'link:'
+
+packages:
+
+  /@u7/caller_line/0.0.3:
+    resolution: {integrity: sha512-fEtYr+FVKfnzDbiCboPwLOIwUKEqflo30Wgt49ZqnwhxzW9VXdKoAQBB2xqPBTKgJYlYbfoJw8umfzwG6R/GaQ==}
+    dev: false
+
+  /@u7/read/0.0.6:
+    resolution: {integrity: sha512-j4uIfSfkZDZ+6zupIbpB+6TwIkOb7OsC5gYAsVYpJu0AXCMoS34MpRWaW122hNIK1TqlpJcmufVHp12O2H8KHw==}
+    dev: false
+
+  /@u7/req/0.0.13:
+    resolution: {integrity: sha512-kBZScCFYq+g0037x3D+4aXtx9zkx4y8TYf6R3caf+AkOguiSXj4aae0bkR0/0zN+JVDWQWkdfJTYrDl7SpRfmQ==}
+    dependencies:
+      '@u7/read': 0.0.6
+      '@u7/retry': 0.0.6
+      '@u7/write': 0.0.9
+      js-yaml: 4.1.0
+    dev: false
+
+  /@u7/retry/0.0.6:
+    resolution: {integrity: sha512-fITtwAXnSh07O21VO+voo2hRv7HEH65ElpDmoxRur2CN98NXLJs52+/jYWdrA8bHUnad6Worhqp1DA0YhOCSTg==}
+    dependencies:
+      '@u7/caller_line': 0.0.3
+      '@u7/sleep': 0.0.3
+    dev: false
+
+  /@u7/sleep/0.0.3:
+    resolution: {integrity: sha512-oPURSbxdxR26Zz5YCTczmQxPrz9h0VNvtZQixLb9wCaCbwidA0odrx7eyz10gihYXdjNheHfXCwbIdr6qwxPHA==}
+    dev: false
+
+  /@u7/write/0.0.9:
+    resolution: {integrity: sha512-50PbebAab1VHZUF49CdP6l60UKJFti081mNnPg5ZcPzAgUlTK0xS9dFNJv30wtBp/h+/AL0/ZOfLpmjjb1/7CA==}
+    dev: false
+
+  /argparse/2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+    dev: false
+
+  /js-yaml/4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
+    hasBin: true
+    dependencies:
+      argparse: 2.0.1
+    dev: false
